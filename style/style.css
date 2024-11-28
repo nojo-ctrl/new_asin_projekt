@@ -1,0 +1,280 @@
+/*login form */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: flex;
+}
+.glav_img{
+  /* Rectangle 3463272 */
+
+width: 845px;
+height: 1024px;
+
+}
+.logo{
+  position: absolute;
+  left: 108px;
+  top: 69px;
+}
+.main-login_text h2{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 43px;
+}
+.main-login_text p{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #A4A2AA;
+margin-top: 5px;
+}
+.main-login{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 150px ;
+}
+.log-inp{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px; 
+  gap: 10px;
+}
+.email_text{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+
+color: #131118;
+}
+#email{
+  box-sizing: border-box;
+  border: 1px solid #131118;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 445px;
+  height: 56px;
+  font-size: 18px;
+  padding-left: 8px;
+  }
+#password{
+box-sizing: border-box;
+border: 1px solid #131118;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+width: 445px;
+height: 56px;
+padding-left: 8px;
+}
+.remember_text{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #131118;
+}
+
+/* Скрыть стандартный чекбокс */
+input[type="checkbox"] {
+  display: none;
+  margin-top: 10px;
+}
+
+/* Создание кастомного чекбокса */
+.custom-checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  background-color: transparent;
+  border-radius: 7px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Стиль для чекбокса при нажатии */
+input[type="checkbox"]:checked + .custom-checkbox {
+  background-color: black;
+}
+
+/* Галочка */
+.custom-checkbox:after {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 0;
+  width: 5px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0; /* Скрыть по умолчанию */
+}
+
+/* Показать галочку при нажатии */
+input[type="checkbox"]:checked + .custom-checkbox:after {
+  opacity: 1;
+}
+.remember_text p{
+  margin-left: 30px;
+  white-space: nowrap;
+  margin-top: 1px;
+}
+.Forgot{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: right;
+text-decoration: none;
+/* Dark-500 */
+color: #131118;
+display: block;
+margin-top: -25px;
+
+}
+.sub{
+  /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+width: 445px;
+height: 56px;
+
+/* Dark-500 */
+background: #131118;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+color: aliceblue;
+margin-top: 20px;
+}
+.sub_2{
+  /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+width: 445px;
+height: 56px;
+
+/* Dark-500 */
+border: 1px solid #ffffff;
+background: #0b65be;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+color: aliceblue;
+margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* regist form */
+
+#email_log{
+  box-sizing: border-box;
+  border: 1px solid #131118;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 445px;
+  height: 56px;
+  font-size: 25px;
+  }
+#password_log{
+box-sizing: border-box;
+border: 1px solid #131118;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+width: 445px;
+height: 56px;
+}
+#fname{
+  box-sizing: border-box;
+  border: 1px solid #131118;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 445px;
+  height: 56px; 
+}
+#Lname{
+  box-sizing: border-box;
+border: 1px solid #131118;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+width: 445px;
+height: 56px;
+}
+.name_text{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+
+color: #131118;
+}
+.sub_3{
+  /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+width: 445px;
+height: 56px;
+
+/* Dark-500 */
+border: 1px solid #ffffff;
+background: #f89a03;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+color: aliceblue;
+margin-top: 1px;
+}
+.Back{
+  text-decoration: none;
+}
+

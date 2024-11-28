@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+}
+
+.navigation{
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.navigation nav{
+  display: flex;
+  gap: 30px;
+}
+.navigation nav a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Jost';
+  font-weight: 600;
+}
+.navigation nav a:hover{
+  text-decoration: none;
+  color: rgb(104, 102, 102);
+  font-family: 'Jost';
+  font-weight: 700;
+}
+.icon_head{
+  display: flex;
+  gap: 18px;
+  padding-top: 20px;
+}
+.icon_head img{
+  width: 23px;
+  height: 23px;
+}
+.login_btn{
+  padding-top: 7px;
+}
+.login_btn button{
+  background-color: #080808;
+  color: white;
+  width: 100px;
+  height: 45px;
+  border-radius: 17px;
+}
+.login_btn button a{
+  color: white;
+  text-decoration: none;
+}
+.glav_text{
+  font-family: 'Jost';
+  margin-left: 600px;
+  margin-top: 50px;
+}
+.add_text{
+  font-family: 'Jost';
+  margin-left: 75px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 80px;
+}
+.form input{
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+
+.form button{
+  width: 310px;
+  height: 40px;
+  color: white;
+  background-color: #080808;
+  border: 1px solid white;
+  border-radius: 30px;
+}
